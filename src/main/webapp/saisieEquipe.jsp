@@ -14,16 +14,16 @@
 <div class="container">
 <div class="card">
   <div class="card-header">
-    Saisie des Produits
+    Saisie des Equipes
   </div>
   <div class="card-body">
       <form action="save.do" method="post">
       <div class="form-group">
-       <label class="control-label">Nom Produit :</label>
+       <label class="control-label">Nom Equipe :</label>
        <input type="text" name="nom" class="form-control"/>
       </div>
       <div class="form-group">
-       <label class="control-label">Prix :</label>
+       <label class="control-label">Rank :</label>
        <input type="text" name="prix" class="form-control"/>
       </div>
       <div>

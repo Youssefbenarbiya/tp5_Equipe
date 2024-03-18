@@ -14,7 +14,7 @@
 <div class="container">
 <div class="card">
   <div class="card-header">
-    Recherche des Produits
+    Recherche des Equipes
   </div>
   <div class="card-body">
       <form action="chercher.do" method="get">
@@ -24,15 +24,15 @@
       </form>     
       <table class="table table-striped">
         <tr>
-          <th>ID</th><th>Nom Produit</th><th>Prix</th><th>Suppression<th>Edition</th>
+          <th>ID</th><th>Nom Equipe</th><th>Rank</th><th>Suppression<th>Edition</th>
          </tr>
-         <c:forEach items="${model.produits}" var="p">
+         <c:forEach items="${model.equipes}" var="p">
            <tr>
-              <td>${p.idProduit }</td>
-              <td>${p.nomProduit }</td>
-              <td>${p.prix }</td>
-              <td><a onclick="return confirm('Etes-vous sûr ?')" href="supprimer.do?id=${p.idProduit }">Supprimer</a></td>
-               <td><a href="editer.do?id=${p.idProduit }">Edit</a></td>
+              <td>${p.idEquipe }</td>
+              <td>${p.nomEquipe }</td>
+              <td>${p.Rank }</td>
+              <td><a onclick="return confirm('Etes-vous sûr ?')" href="supprimer.do?id=${p.idEquipe }">Supprimer</a></td>
+               <td><a href="editer.do?id=${p.idEquipe }">Edit</a></td>
            </tr>
          </c:forEach>        
       </table>

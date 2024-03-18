@@ -28,7 +28,7 @@
       </div>
       <div class="form-group">
        <label class="control-label">Rank :</label>
-       <input type="text" name="prix" class="form-control" value="${equipe.rank}"/>
+       <input type="text" name="prix" class="form-control" value="${equipe.Rank}"/>
       </div>
       <div>
         <button type="submit" class="btn btn-primary">Modifier</button>
